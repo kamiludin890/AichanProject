@@ -1,3 +1,5 @@
+user_memory = {}
+
 
 def save_memory(user_id, message):
     if user_id not in user_memory:
